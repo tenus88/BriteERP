@@ -1,0 +1,71 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-10T17:24:39.822Z",
+        "line": 6,
+        "name": "",
+        "description": "    Parametrized login",
+        "id": ";",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10043000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user in the login page",
+            "match": {
+              "location": "com.briteERP.stepDefinitions.LoginStepDefinitions.userInTheLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3792000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user logs in as a \"posmanager\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"posmanager\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.briteERP.stepDefinitions.LoginStepDefinitions.userLogsInAsA(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user should be see home page",
+            "match": {
+              "location": "com.briteERP.stepDefinitions.LoginStepDefinitions.userShouldBeSeeHomePage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@first"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  As a user I should be able to login to the app with valid credential",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Login.feature",
+    "tags": []
+  }
+]
