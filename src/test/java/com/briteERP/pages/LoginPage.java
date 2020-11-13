@@ -6,7 +6,7 @@ import org.openqa.selenium.support.FindBy;
 
 public class LoginPage extends BasePage {
 
-// good job guys
+    // good job guys
     // my second line
 
     @FindBy (id = "login")

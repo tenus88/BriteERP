@@ -10,3 +10,6 @@ Feature:
     When user logs in as a "posmanager"
     Then user should be see home page
 
+
+
+

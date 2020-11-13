@@ -13,8 +13,8 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",      //always starts from the 'src'
         glue     = "com/briteERP/stepDefinitions",   //always starts from the 'com' AND //HOOKS RUNNING BY THE GLUE
-        dryRun   = false,
-        tags     = "@first",
+        dryRun   = true,
+        tags     = "@addNote",
         publish = true
 
 )
