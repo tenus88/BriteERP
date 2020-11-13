@@ -1,12 +1,16 @@
 package com.briteERP.stepDefinitions;
 
+import com.briteERP.pages.BasePage;
+import com.briteERP.pages.NotePage;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
 public class NoteStepDefinitions {
+   NotePage notePage = new NotePage();
 
     @Then("user navigates to {string}")
     public void user_navigates_to(String string) {
+        notePage.navigateTo(string);
     }
 
     @Then("user clicks on {string} button")

@@ -1,4 +1,5 @@
 package com.briteERP.pages;
 
-public class NotePage {
+public class NotePage extends BasePage {
+
 }

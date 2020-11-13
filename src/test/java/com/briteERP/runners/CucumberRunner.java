@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/features",      //always starts from the 'src'
         glue     = "com/briteERP/stepDefinitions",   //always starts from the 'com' AND //HOOKS RUNNING BY THE GLUE
-        dryRun   = true,
+        dryRun   = false,
         tags     = "@addNote",
         publish = true
 

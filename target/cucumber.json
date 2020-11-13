@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2020-11-13T15:48:49.695Z",
+        "start_timestamp": "2020-11-13T16:52:02.056Z",
         "line": 6,
         "name": "",
         "description": "  Add new note",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 3000000,
+              "duration": 8288000000,
               "status": "passed"
             },
             "line": 9,
@@ -25,6 +25,7 @@
           },
           {
             "result": {
+              "duration": 2259000000,
               "status": "passed"
             },
             "line": 10,
@@ -42,7 +43,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 2000000,
               "status": "passed"
             },
             "line": 11,
@@ -54,29 +55,50 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 802000000,
+              "status": "passed"
             },
             "line": 12,
             "name": "user navigates to \"Notes\"",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Notes\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.briteERP.stepDefinitions.NoteStepDefinitions.user_navigates_to(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1000000,
+              "status": "passed"
             },
             "line": 13,
             "name": "user clicks on \"Create\" button",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Create\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.briteERP.stepDefinitions.NoteStepDefinitions.user_clicks_on_button(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 2000000,
+              "status": "passed"
             },
             "line": 14,
             "name": "user create note information",
-            "match": {},
+            "match": {
+              "location": "com.briteERP.stepDefinitions.NoteStepDefinitions.user_create_note_information(io.cucumber.datatable.DataTable)"
+            },
             "rows": [
               {
                 "cells": [
@@ -95,11 +117,20 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1000000,
+              "status": "passed"
             },
             "line": 19,
             "name": "user clicks on \"Save\" button",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Save\"",
+                  "offset": 15
+                }
+              ],
+              "location": "com.briteERP.stepDefinitions.NoteStepDefinitions.user_clicks_on_button(java.lang.String)"
+            },
             "keyword": "And "
           }
         ],
